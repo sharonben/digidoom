@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.navbar-container{
+    padding: 2% 5%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.ul-container>li{
+    list-style: none;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.ul-container{
+    display: flex;
+   
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.contact{
+    font-weight: 600;
+    font-size: 14px;
+ 
+}
+.contact-box{
+    padding: 3px 8px;
+    display: flex;
+    cursor: pointer;
+    border: 2px solid #1ABC9C;
+    text-align: center;
+    align-items: center;
+}
+.ul-container>li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+position: absolute;
+background-color: #1ABC9C;
+left: 0;
+    bottom: 3px;
+    transition: 0.5s;
+
+}
+.ul-container>li:hover::after{
+    width: 100%;
+}
+.search-svg{
+    height: 16px;
+    width: 16px;
+    margin-left: 15px;
+}
+.search-box{
+    display: none;
+}
+
+
+@media screen and (max-width:790px) {
+
+    .ul-container>li{
+    margin-right: 10px;
+    padding: 0px;
+}
+.ul-container>li::after{
+    content: "";
+    bottom: -5px;
+}
+}
+@media screen and (max-width:670px) {
+   .contact-box{
+       display: none;
+   }
+}
+@media screen and (max-width:545px) {
+    .nav-list-container{
+        display: none;
+    }
+    .search-box{
+        outline: none;
+        display: block;
+        width: 70px;
+        border: none;
+        padding: 10px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        padding-left: 20px;
+    }
+    .input-search{
+        display: flex;
+        background-color: white;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .search-svg{
+        background-color: white;
+        margin-top: 9.3px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .navbar-container{
+        padding: 3% 5%;
+    }
+ }
+
+ @media screen and (max-width:350px) {
+    .search-box{
+        display: none;
+    }
+    .search-svg{
+        background:transparent;
+        margin-top: 0px;
+        margin-right: 0px;
+        cursor: pointer;
+        height: 20px;
+        width: 20px;
+    }
+    .input-search{
+background:transparent;
+    }
+ }
