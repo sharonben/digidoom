@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.sectiontwo-container{
+    min-height: 60vh;
+    background-color: #0a0c12;
+}
+.before-service{
+    height: 2px;
+    width: 40px;
+    background-color: #1ABC9C ;
+
+}
+.services{
+    color: white;
+    font-size: 46px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.service-con{
+    display: flex;
+    align-items: center;
+}
+.service-container{
+    margin-left: 19%;
+    margin-bottom: 7%;
+    padding-top: 7%;
+}
+.service-caption{
+    color:#1ABC9C ;
+    font-weight: 600;
+    font-size: 12px;
+}
+.service-card-container-one,.service-card-container-two{
+    display: flex;
+    justify-content: center;
+}
+.service-card-container-one>div{
+    margin: 0.5%;
+    border-bottom: 4px solid white;
+}
+.service-card-container-two>div{
+    margin: 0.5%;
+    border-bottom: 4px solid white;
+}
+.service-card-container-one>div:hover{
+    border-bottom: 0px;
+}
+.service-card-container-two>div:hover{
+    border-bottom: 0px;
+}
+.line2{
+    height: 50px;
+    width: 2px;
+    background-color: #1ABC9C;
+    margin-top:90px;
+    margin-bottom: 90px;
+}
+.line-contain{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* 
+@media screen and (max-width:950px) {
+    .service-card-container-one,.service-card-container-two{
+        justify-content: left;
+        overflow-x: scroll;
+    }
+    .service-card-container-one::-webkit-scrollbar{
+        display: none;
+    }
+    .service-card-container-two::-webkit-scrollbar{
+        display: none;
+    }
+
+} */
+
+@media screen and (max-width:1000px) {
+    .service-container{
+        padding-top: 10%;
+        padding-bottom: 2%;
+
+    }
+}
+@media screen and (max-width:700px) {
+    .service-container{
+       padding: 10% 0;
+    }
+}
+@media screen and (max-width:500px) {
+    .service-container{
+       padding: 10% 0;
+    }
+}
+@media screen and (max-width:400px) {
+    .service-container{
+       padding: 20% 0;
+    }
+}
+@media screen and (max-width:970px) {
+    .service-card-container{
+        display: flex;
+        overflow-x: hidden;
+        overflow-x: scroll;
+    }
+    .service-card-container::-webkit-scrollbar{
+        display: none;
+    }
+    .service-card-container-two{
+        margin-left: 27px;
+    }
+    /* .service-card-container-one,.service-card-container-two{
+        overflow-x: hidden;
+        overflow-x: scroll;
+    } */
+}
+@media screen and (max-width:350px) {
+    .service-container{
+       padding: 20% 0;
+    }
+    .service-con>.services{
+        font-size: 34px;
+    }
+}

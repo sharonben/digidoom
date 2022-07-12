@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.sectionthree-container{
+    background-color: #141614;
+}
+.before-work{
+    height: 2px;
+    width: 40px;
+    background-color: #1ABC9C ;
+
+}
+.works{
+    color: white;
+    font-size: 46px;
+    font-weight: 700;
+    /* margin-left: 20px; */
+}
+.work-con{
+    display: flex;
+    align-items: center;
+}
+.work-container{
+    /* margin-left: 19%; */
+    margin-bottom: 7%;
+    padding-top: 7%;
+    /* flex: 0.7; */
+}
+.work-caption{
+    color:#1ABC9C ;
+    font-weight: 600;
+    font-size: 12px;
+}
+.workhead-btn{
+    color: #1ABC9C;
+    height: 54px;
+    padding: 16px 30px;
+    font-size: 12px;
+    font-weight: 800;
+    border: 2px solid #1ABC9C;
+    margin-right: 10%;
+    cursor: pointer;
+}
+.work-head{
+    display: flex;
+    align-items: center;
+    /* gap: 30%; */
+    justify-content: space-between;
+}
+.screenimg{
+width: 300px;
+/* object-fit: cover; */
+}
+.img-section{
+    display: flex;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+.img-section::-webkit-scrollbar{
+    display: none;
+}
+
+
+.line3{
+    height: 50px;
+    width: 2px;
+    background-color: #1ABC9C;
+    margin-top:90px;
+    margin-bottom: 70px;
+}
+.line3-contain{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:650px) {
+    .workhead-btn{
+        height: 42px;
+        padding: 13px 26px;
+
+    }
+}
+@media screen and (max-width:600px) {
+    .workhead-btn{
+        height: 42px;
+        padding: 13px 26px;
+text-align: center;
+margin-left: 15%;
+    }
+  
+}
+@media screen and (max-width:550px) {
+    .workhead-btn{
+margin-left: 12%;
+    } 
+}
+@media screen and (max-width:520px) {
+    .workhead-btn{
+margin-left: 10%;
+    } 
+}
+@media screen and (max-width:500px) {
+    .workhead-btn{
+margin-left: 7%;
+    } 
+}
+@media screen and (max-width:490px) {
+    .workhead-btn{
+margin:0 20px ;
+    } 
+    .work-head{
+      flex-direction: column;
+      align-items: stretch;
+      padding-top: 20px;
+      padding-bottom: 60px;
+    }
+
+}
+@media screen and (max-width:350px) {
+    .work-con>.works{
+        font-size: 34px;
+    }
+}

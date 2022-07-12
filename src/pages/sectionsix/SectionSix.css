@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.sectionsix-container{
+    background-color: #0a0c12;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+min-height: 100vh;
+padding: 5% 0;
+}
+.latest-news{
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+}
+.checkout{
+    color: #1ABC9C;
+    font-size: 12px;
+    font-weight: 700;
+}
+.s6-heading{
+    align-items: center;
+    text-align: center;
+}
+.news-section{
+    margin-top: 60px;
+    display: flex;
+overflow-x: hidden;
+overflow-x: scroll;
+}
+.news-section::-webkit-scrollbar{
+    display: none;
+}
+.line3{
+    height: 50px;
+    width: 2px;
+    background-color: #1ABC9C;
+    margin-top:60px;
+    margin-bottom: 50px;
+}
+.line3-contain{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.icons-panel>img{
+    margin: 10px;
+}
+.icon-caption{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.enquiry-btn{
+    height: 40px;
+    width: 110px;
+    padding: 10px 10px;
+    color:  #1ABC9C;
+    border: 2px solid  #1ABC9C;
+    font-size: 10px;
+    text-transform:uppercase;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.s6-bottom{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon-caption{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}

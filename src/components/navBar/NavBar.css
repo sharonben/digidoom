@@ -3,6 +3,7 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
 .navbar-container{
     padding: 2% 5%;
     align-items: center;
@@ -16,7 +17,7 @@
 .logo{
     font-size: 30px;
     font-weight: 700;
-
+cursor: pointer;
 }
 .ul-container>li{
     list-style: none;
@@ -73,6 +74,11 @@ left: 0;
 }
 .search-box{
     display: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    transition: 1s ease-in;
 }
 
 

@@ -3,10 +3,68 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+.home-page-container{
+    overflow-x: hidden;
+}
 .section1{
     background-color: black;
 }
 .card-section-one{
+    padding-bottom: 60px;
     display: flex;
-    padding: 0% 19%;
+    justify-content: center;
+}
+.card-section-one>div{
+    margin-left: 2%;
+
+}
+.cards{
+    z-index: 2;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+@media screen and (max-width:1040px) {
+    .card-section-one{
+      margin: 0 20%;
+    }
+}
+@media screen and (max-width:990px) {
+    .card-section-one{
+      margin: 0 40%;
+    }
+}
+@media screen and (max-width:960px) {
+    .card-section-one{
+      margin: 0 40%;
+    }
+}
+@media screen and (max-width:950px) {
+    .cards{
+        height: 300px;
+        width: 400px;
+    }
+    .card-section-one{
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .card-section-one{
+overflow-x: scroll;
+justify-content: start;
+    }
+    .card-section-one::-webkit-scrollbar
+    {display: none;
+    }
+    .card-section-one{
+        margin: 0 0%;
+      }
+      .cards{
+        height: 400px;
+        width: 400px;
+    }
 }

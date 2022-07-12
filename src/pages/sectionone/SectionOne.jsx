@@ -4,7 +4,7 @@ import section1img from "./cropped.png";
 
 function SectionOne() {
   return (
-    <div className="sectionone-container">
+    <div id="sectionone-container" className="sectionone-container">
       <div className="s1img-container">
           <div className="text-area">
               <div className="text1">CREATIVE MIND, CREATIVE WORKS.</div>
